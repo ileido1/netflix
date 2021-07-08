@@ -1,26 +1,88 @@
-body{
+*{
     background-color: black;
-    color: blanchedalmond;
-
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
 }
 
-.boton{
-    text-decoration: none;
-    color: blanchedalmond;
-    padding: 1rem;
-    border: 0.1rem solid white;
-    border-radius: 1rem;
 
+.boton{
+    
+    color: #FFFFFF;
+    padding: 0.5rem;
+    background-color: #F40612;
+    border-radius: 0.3rem;   
+}
+
+table{
+    background-color: #F40612;
+}
+
+
+ul{
+    float: left;
+    display: inline-block;
+    list-style: none;
+}
+
+.contacto{
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+}
+
+#final{
+    clear:both;
     
 }
 
-section{
-    background-color: blue;
+#marca{
+    width: 15rem;
+    display: inline-block;
 }
 
 
 
+#precios{
+    
+}
 
-#marca{
-    width: 15rem;
+table a.boton{
+    display: block;
+    margin-top: 0.1rem;
+    
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+td{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+#Separador{
+    display: inline;
+    height: 3rem;
+    background-color: thistle;
+}
+
+hr{
+    background-color: #222222;
+    color: #222222;
+    height: 0.5rem;
+    border: none;
+    width: 100%;
+}
+
+header{
+    width: 80%;
+    display: table-cell;
+    vertical-align: middle;
 }

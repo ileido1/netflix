@@ -8,31 +8,33 @@
     <link rel="shortcut icon" type="image/x-icon" href="/img/logo.ico">
     <link rel="stylesheet" href="Estilos/principal.css">
 </head>
+
 <body>
     <header>
         <img id="marca" src="/img/marca.png" alt="Netflix">
-            <a href="">Iniciar Sesion</a>
+        <a class="boton" id="Sesion" href="">Iniciar Sesion</a>
     </header>
     <section>
         <h1>Bienvenido a Netflix</h1>
 
-        <a name="boton" href="">REGISTRATE YA</a>
+        <a class="boton" href="">REGISTRATE YA</a>
         <article>
             <h2>TRENDING</h2>
             <img src="">
-            <a name="boton" href="">Ver Todo</a>
+            <a class="boton" href="">Ver Todo</a>
         </article>
 
         <article>
             <h2>Proximos Estrenos</h2>
             <img src="" alt="">
-            <a name="boton" href="">Ver Todo</a>
+            <a class="boton" href="">Ver Todo</a>
         </article>
 
         <article>
             <h2>PLANES Y PRECIOS</h2>
-            <table>
+            <table id="precios">
                 <tr>
+                    <td></td>
                     <td>Basico</td>
                     <td>Estandar</td>
                     <td>Premium</td>
@@ -83,31 +85,36 @@
                 
                 <tr>
                     <td></td>
-                    <td><a name="boton" href="">COMPRAR</a></td>
-                    <td><a name="boton" href="">COMPRAR</a></td>
-                    <td><a name="boton" href="">COMPRAR</a></td>
+                    <td><a class="boton" href="">COMPRAR</a></td>
+                    <td><a class="boton" href="">COMPRAR</a></td>
+                    <td><a class="boton" href="">COMPRAR</a></td>
                 </tr>
                 
                 
             </table>
         </article>
     </section>
-    <footer>
-        <h3>Enlaces de Interes</h3>
-        <nav>
-            <ul>
-                <li><a href="">Iniciar Sesion</a></li>
-                <li><a href="">Registro</a></li>
-                <li><a href="">Series/Peliculas</a></li>
-                <li><a href="">Planes y Precios</a></li>
-                <li><a href="">Preguntas Frecuentes</a></li>
-            </ul>
-        </nav>
-        
 
-        <h3>Contactanos</h3>
+    <section id="Separador"></section>
+    <hr>
+
+    <footer>
+        <section class="contacto">
+            <h3>Enlaces de Interes</h3>
+            <nav>
+                <ul>
+                    <li><a href="">Iniciar Sesion</a></li>
+                    <li><a href="">Registro</a></li>
+                    <li><a href="">Series/Peliculas</a></li>
+                    <li><a href="">Planes y Precios</a></li>
+                    <li><a href="">Preguntas Frecuentes</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section class="contacto">
+            <h3>Contactanos</h3>
         <nav>
-            <h4>Centro de Atencion</h4>
             <ul>
                 <li>+1 (000) 000-0000 (USA)</li>
                 <li>+58 (000) 000-0000 (VE)</li>
@@ -115,8 +122,9 @@
                 <li><a href="">Otros</a></li>
             </ul>
         </nav>
+        </section>
 
-        <h3>Netflix Venezuela</h3>
+        <h3 id="final">Netflix Venezuela</h3>
     </footer>
 </body>
 </html>
