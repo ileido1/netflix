@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: blanchedalmond;
+
+}
+
+.boton{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 1rem;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+
+    
+}
+
+section{
+    background-color: blue;
+}
+
+
+
+
+#marca{
+    width: 15rem;
+}
